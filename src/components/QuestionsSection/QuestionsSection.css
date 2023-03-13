@@ -1,6 +1,5 @@
 .questions__section {
   display: flex;
-  align-items: center;
   gap: 30px;
 }
 
