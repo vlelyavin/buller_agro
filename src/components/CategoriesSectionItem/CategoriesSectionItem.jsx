@@ -5,10 +5,14 @@ export const CategoriesSectionItem = ({ category }) => {
     <div
       className="category__section__item"
       key={category.id}
-      style={{
-        color: `var(--${category.color})`,
-        backgroundColor: `var(--${category.background})`,
-      }}
+      style={
+        category.color
+          ? {
+              color: `var(--${category.color})`,
+              backgroundColor: `var(--${category.background})`,
+            }
+          : { color: `var(--white)`, backgroundColor: `var(--${category.background})` }
+      }
     >
       {category.id % 2 === 0 ? (
         <>
