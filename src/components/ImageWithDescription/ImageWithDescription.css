@@ -1,0 +1,18 @@
+.iwd {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.iwd__info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.iwd__info__title {
+  font-size: 30px;
+}
+
+.iwd__info__description {
+  font-size: 20px;
+}

@@ -1,0 +1,1 @@
+export { NotFoundRedirect } from "./NotFoundRedirect";

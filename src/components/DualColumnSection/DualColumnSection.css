@@ -1,0 +1,30 @@
+.dual__column__section {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.dual__column__section__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 630px;
+}
+
+.dual__column__section__item__image {
+  width: 100%;
+  height: 270px;
+  border-radius: 20px;
+}
+
+.dual__column__section__item__title {
+  margin: 25px 0;
+  font-size: 30px;
+}
+
+.dual__column__section__item__description {
+  font-size: 25px;
+}

@@ -1,0 +1,22 @@
+.best__variant {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 17px;
+  margin: 40px 0;
+}
+
+.best__variant__info {
+  padding: 50px 85px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.best__variant__info__title {
+  font-size: 40px;
+}
+
+.best__variant__info__description {
+  width: 660px;
+}

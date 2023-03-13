@@ -1,0 +1,56 @@
+.logistics__item {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  background: white;
+}
+
+.logistics__item__info {
+  padding: 50px 30px 50px 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logistics__item__info__title {
+  font-size: 25px;
+}
+
+.logistic__item__info__location {
+  margin: 20px 0;
+}
+
+.logistics__row {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.logistics__column {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.logistics__column__item,
+.logistics__description {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 24px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  gap: 8px;
+}
+
+.logistics__column__item {
+  width: 390px;
+}
+
+.logistics__description {
+  margin: 15px 0 0 0;
+  height: 250px;
+}
+
+.inline {
+  display: flex;
+  flex-direction: row;
+}

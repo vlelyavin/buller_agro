@@ -1,0 +1,27 @@
+.questions__section {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.questions__section__item {
+  width: 100%;
+  background: white;
+  border-radius: 20px;
+  padding: 36px 26px 66px 32px;
+}
+
+.questions__section__item__icon {
+  width: 43px;
+  height: 43px;
+}
+
+.questions__section__item__title {
+  margin: 30px 0 20px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.questions__section__item__description {
+  font-size: 18px;
+}

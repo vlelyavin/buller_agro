@@ -1,0 +1,21 @@
+.main__banner {
+  width: 100vw;
+  height: 100vh;
+  background: url("../../../assets/images/banners/mainBanner.png") no-repeat center center / cover;
+}
+
+.main__banner__info {
+  position: absolute;
+  bottom: 130px;
+  left: 0;
+  color: white;
+}
+
+.main__banner__info__title {
+  font-size: 75px;
+}
+
+.main__banner__info__description {
+  font-size: 35px;
+  margin: 30px 0 50px;
+}

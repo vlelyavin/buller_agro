@@ -1,0 +1,26 @@
+.infrastructure__item {
+  display: flex;
+  align-items: center;
+  background: white;
+}
+
+.infrastructure__item__info {
+  padding: 30px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.infrastructure__item__info__title {
+  font-size: 25px;
+}
+
+.infrastructure__item__info__description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 18px;
+  padding: 20px 30px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}

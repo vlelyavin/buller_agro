@@ -1,0 +1,24 @@
+.benefits__summary__item {
+  display: flex;
+  align-items: center;
+  border-radius: 17px;
+  overflow: hidden;
+  background: white;
+}
+
+.benefits__summary__item__title {
+  display: flex;
+  align-items: center;
+  width: 440px;
+  height: 320px;
+  padding: 0 0 0 80px;
+  flex-shrink: 0;
+  font-weight: 700;
+  font-size: 40px;
+  color: white;
+}
+
+.benefits__summary__item__description {
+  padding: 65px 130px;
+  font-size: 25px;
+}
