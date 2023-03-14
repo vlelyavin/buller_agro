@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import { Main } from "./pages/Main";
 import { Footer } from "./components/Footer";
 import { Petroleum } from "./pages/Petroleum";
@@ -12,8 +12,14 @@ import { Work } from "./pages/Work/Work";
 import { NotFound } from "./pages/NotFound";
 import { ROUTES } from "./constants/routes";
 import "./assets/styles/global.css";
+import { useEffect } from "react";
 
 export const App = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
   return (
     <>
       <Routes>

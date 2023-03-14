@@ -1,4 +1,6 @@
 .benefits__summary__item {
+  width: 100%;
+  height: auto;
   display: flex;
   align-items: center;
   border-radius: 17px;
@@ -9,16 +11,18 @@
 .benefits__summary__item__title {
   display: flex;
   align-items: center;
-  width: 440px;
-  height: 320px;
-  padding: 0 0 0 80px;
+  justify-content: center;
+  width: 300px;
+  height: 100%;
+  padding: 80px 60px;
   flex-shrink: 0;
   font-weight: 700;
   font-size: var(--font-xxl);
   color: white;
+  border-radius: 17px;
 }
 
 .benefits__summary__item__description {
-  padding: 65px 130px;
-  font-size: 25px;
+  padding: 60px 110px;
+  font-size: var(--font-m);
 }

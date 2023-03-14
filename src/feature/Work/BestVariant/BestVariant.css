@@ -7,7 +7,6 @@
 }
 
 .best__variant__info {
-  padding: 50px 85px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,8 +14,10 @@
 
 .best__variant__info__title {
   font-size: var(--font-xxl);
+  padding: 50px 85px;
+  flex-shrink: 0;
 }
 
 .best__variant__info__description {
-  width: 660px;
+  min-width: 350px;
 }

@@ -21,10 +21,11 @@
 }
 
 .dual__column__section__item__title {
-  margin: 25px 0;
+  margin: 25px 0 0 0;
   font-size: var(--font-xl);
 }
 
 .dual__column__section__item__description {
-  font-size: var(--font-l);
+  font-size: var(--font-m);
+  margin: 25px 0;
 }

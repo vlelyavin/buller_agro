@@ -3,7 +3,9 @@ import "./LogisticsItem.css";
 export const LogisticsItem = ({ vessel }) => {
   return (
     <div className="logistics__item">
-      <img src={vessel.image} alt={`${vessel.title}`} className="logistics__item__image" />
+      <div className="logistics__item__image__container">
+        <img src={vessel.image} alt={`${vessel.title}`} className="logistics__item__image" />
+      </div>
       <div className="logistics__item__info">
         <h3 className="logistics__item__info__title">{vessel.title}</h3>
         <p className="logistic__item__info__location">{vessel.location}</p>

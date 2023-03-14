@@ -21,7 +21,7 @@ export const About = () => {
       <Header />
       <PageBanner title="How we do" text="process" background={processPageBanner} />
       <Container>
-        <Title value="Portfolio" margin="40px 0 " />
+        <Title value="Portfolio" margin="40px 0" />
         <ImageWithDescription
           title="Portfolio"
           description="Our portfolio of midstream assets creates flexibility for storage and product flow management in support of our trading activities, including inland storage sun the area we operate and proper fleet to carry liquid cargoes, suitable both for vegoils and gasoil."

@@ -1,11 +1,10 @@
-.main__quote__container {
+.work__with__us__image__container {
   width: 100%;
 }
 
-.main__quote {
+.work__with__us__image {
   width: 100%;
-  border-radius: 20px;
-  margin: 33px 0;
+  height: 100%;
   object-fit: cover;
   object-position: center;
 }

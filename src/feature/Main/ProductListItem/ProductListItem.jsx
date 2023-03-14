@@ -13,7 +13,9 @@ export const ProductListItem = ({ product }) => {
         flexDirection: product.id % 2 === 0 ? "row-reverse" : "row",
       }}
     >
-      <img src={product.img} alt={product.title} className="product__list__item__image" />
+      <div className="product__list__item__image__container">
+        <img src={product.img} alt={product.title} className="product__list__item__image" />
+      </div>
       <div className="product__list__item__info">
         <p className="product__list__item__info__title">{product.title}</p>
         <img src={arrowIcon} alt="arrowIcon" className="product__list__item__info__icon" />
