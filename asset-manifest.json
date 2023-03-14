@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bullet_agro/static/css/main.a766ef40.css",
-    "main.js": "/bullet_agro/static/js/main.e7f5a735.js",
+    "main.css": "/bullet_agro/static/css/main.45d4dbdb.css",
+    "main.js": "/bullet_agro/static/js/main.06523169.js",
     "static/media/mainBanner.png": "/bullet_agro/static/media/mainBanner.8672c1b3d8eb170b6ddd.png",
     "static/media/workPageBanner.png": "/bullet_agro/static/media/workPageBanner.43d1bb2b42432e5bcde1.png",
     "static/media/sunflowerOilPageBanner.png": "/bullet_agro/static/media/sunflowerOilPageBanner.f66be50e22b99d15f2c1.png",
@@ -58,11 +58,11 @@
     "static/media/workWithUs.png": "/bullet_agro/static/media/workWithUs.a3056e4281a8048c5fa0.png",
     "static/media/quote.png": "/bullet_agro/static/media/quote.ec294c3c0208f6d8d426.png",
     "index.html": "/bullet_agro/index.html",
-    "main.a766ef40.css.map": "/bullet_agro/static/css/main.a766ef40.css.map",
-    "main.e7f5a735.js.map": "/bullet_agro/static/js/main.e7f5a735.js.map"
+    "main.45d4dbdb.css.map": "/bullet_agro/static/css/main.45d4dbdb.css.map",
+    "main.06523169.js.map": "/bullet_agro/static/js/main.06523169.js.map"
   },
   "entrypoints": [
-    "static/css/main.a766ef40.css",
-    "static/js/main.e7f5a735.js"
+    "static/css/main.45d4dbdb.css",
+    "static/js/main.06523169.js"
   ]
 }
