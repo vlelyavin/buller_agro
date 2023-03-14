@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bullet_agro/static/css/main.9e465580.css",
-    "main.js": "/bullet_agro/static/js/main.84dcd575.js",
+    "main.css": "/bullet_agro/static/css/main.a766ef40.css",
+    "main.js": "/bullet_agro/static/js/main.e7f5a735.js",
     "static/media/mainBanner.png": "/bullet_agro/static/media/mainBanner.8672c1b3d8eb170b6ddd.png",
     "static/media/workPageBanner.png": "/bullet_agro/static/media/workPageBanner.43d1bb2b42432e5bcde1.png",
     "static/media/sunflowerOilPageBanner.png": "/bullet_agro/static/media/sunflowerOilPageBanner.f66be50e22b99d15f2c1.png",
@@ -19,6 +19,7 @@
     "static/media/sunflowerOil.png": "/bullet_agro/static/media/sunflowerOil.89dacf7f3aca21fdcfcc.png",
     "static/media/wheat.png": "/bullet_agro/static/media/wheat.0827c7462b5d36ed3eb1.png",
     "static/media/corn.png": "/bullet_agro/static/media/corn.5ce21373a185d4b23f92.png",
+    "static/media/amigo.png": "/bullet_agro/static/media/amigo.27d8fa26217b27981c27.png",
     "static/media/falconTerminal.png": "/bullet_agro/static/media/falconTerminal.978ce6c6d114ec466409.png",
     "static/media/coldPressedSunflowerOil.png": "/bullet_agro/static/media/coldPressedSunflowerOil.97ce19b087de3e85a0a4.png",
     "static/media/byShip.png": "/bullet_agro/static/media/byShip.a5364762efa11e281173.png",
@@ -31,10 +32,8 @@
     "static/media/container.png": "/bullet_agro/static/media/container.7e31fc24fbc6be2ce36a.png",
     "static/media/bestVariant.png": "/bullet_agro/static/media/bestVariant.54645c36b220742af385.png",
     "static/media/grain.png": "/bullet_agro/static/media/grain.06e279c5afa4a095c48f.png",
-    "static/media/googleMapsLocation.png": "/bullet_agro/static/media/googleMapsLocation.0c8a0828b4172ee4b22b.png",
     "static/media/decisiveness.png": "/bullet_agro/static/media/decisiveness.315e8f482b49bfccbf3c.png",
     "static/media/geographicalExpansion.png": "/bullet_agro/static/media/geographicalExpansion.8500feeae16d66530749.png",
-    "static/media/amigo.png": "/bullet_agro/static/media/amigo.f2979e2d99034ce92cb1.png",
     "static/media/diesel.png": "/bullet_agro/static/media/diesel.4d8fc6629d524ecd3d93.png",
     "static/media/analysis.png": "/bullet_agro/static/media/analysis.2e0575102ce264174453.png",
     "static/media/fuel.png": "/bullet_agro/static/media/fuel.32d04f0f4244a6981f94.png",
@@ -59,11 +58,11 @@
     "static/media/workWithUs.png": "/bullet_agro/static/media/workWithUs.a3056e4281a8048c5fa0.png",
     "static/media/quote.png": "/bullet_agro/static/media/quote.ec294c3c0208f6d8d426.png",
     "index.html": "/bullet_agro/index.html",
-    "main.9e465580.css.map": "/bullet_agro/static/css/main.9e465580.css.map",
-    "main.84dcd575.js.map": "/bullet_agro/static/js/main.84dcd575.js.map"
+    "main.a766ef40.css.map": "/bullet_agro/static/css/main.a766ef40.css.map",
+    "main.e7f5a735.js.map": "/bullet_agro/static/js/main.e7f5a735.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e465580.css",
-    "static/js/main.84dcd575.js"
+    "static/css/main.a766ef40.css",
+    "static/js/main.e7f5a735.js"
   ]
 }
