@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import logo from "../../assets/images/icons/logo.png";
 import mailIcon from "../../assets/images/icons/footer/footerMailIcon.png";
 import phoneIcon from "../../assets/images/icons/footer/footerPhoneIcon.png";
@@ -8,6 +8,13 @@ import "./Footer.css";
 import { ROUTES } from "../../constants/routes";
 
 export const Footer = () => {
+  const navigate = useNavigate();
+  const handleClick = (pathname, event) => {
+    event.preventDefault();
+    setTimeout(() => {
+      navigate(pathname);
+    }, 200);
+  };
   return (
     <footer className="footer">
       <Container>
@@ -20,18 +27,30 @@ export const Footer = () => {
             </p>
           </div>
           <div className="footer__column">
-            <Link to="/petroleum" className="footer__column__link">
+            <Link
+              to={ROUTES.petroleum}
+              onClick={(event) => handleClick(ROUTES.petroleum, event)}
+              className="footer__column__link"
+            >
               Petroleum Products
             </Link>
-            <Link to="/sunflowerOil" className="footer__column__link">
+            <Link
+              to={ROUTES.sunflowerOil}
+              onClick={(event) => handleClick(ROUTES.sunflowerOil, event)}
+              className="footer__column__link"
+            >
               Sunflower Oil
             </Link>
-            <Link to="/grain" className="footer__column__link">
+            <Link
+              to={ROUTES.grain}
+              onClick={(event) => handleClick(ROUTES.grain, event)}
+              className="footer__column__link"
+            >
               Grain
             </Link>
           </div>
           <div className="footer__column">
-            <Link to={ROUTES.contact}>
+            <Link to={ROUTES.contact} onClick={(event) => handleClick(ROUTES.contact, event)}>
               <button className="footer__column__button">Contact us</button>
             </Link>
             <div className="footer__column__info">

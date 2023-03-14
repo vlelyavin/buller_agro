@@ -38,6 +38,12 @@
   border-radius: 41px;
   border: 2px solid var(--black);
   white-space: nowrap;
+  transition: 0.1s;
+}
+
+.triple__column__section__item__button:hover {
+  color: var(--white);
+  background: var(--black);
 }
 
 .bg-green {
@@ -52,4 +58,9 @@
   color: var(--white);
   background: var(--black);
   border: 2px solid var(--black);
+}
+
+.inverted:hover {
+  color: var(--black);
+  background: var(--white);
 }

@@ -1,10 +1,17 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Button } from "../../../components/Button";
 import { Container } from "../../../components/Container/Container";
 import { ROUTES } from "../../../constants/routes";
 import "./MainBanner.css";
 
 export const MainBanner = () => {
+  const navigate = useNavigate();
+  const handleClick = (pathname, event) => {
+    event.preventDefault();
+    setTimeout(() => {
+      navigate(pathname);
+    }, 200);
+  };
   return (
     <div className="main__banner">
       <Container>
@@ -17,7 +24,7 @@ export const MainBanner = () => {
             Energy and Agriculture, Investment and
             <br /> Shipping Firm
           </p>
-          <Link to={ROUTES.contact}>
+          <Link to={ROUTES.contact} onClick={(event) => handleClick(ROUTES.contact, event)}>
             <Button width="320px" height="60px" fontSize="var(--font-l)" />
           </Link>
         </div>

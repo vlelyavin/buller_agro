@@ -3,9 +3,9 @@ import petroleum from "../../../assets/images/products/petroleum.png";
 import sunflowerOil from "../../../assets/images/products/sunflowerOil.png";
 import grain from "../../../assets/images/products/grain.png";
 import trading from "../../../assets/images/products/trading.png";
-import "./ProductList.css";
 import { ProductListItem } from "../ProductListItem";
 import { ROUTES } from "../../../constants/routes";
+import "./ProductList.css";
 
 export const ProductList = () => {
   const products = [

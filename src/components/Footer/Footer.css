@@ -35,6 +35,11 @@
   font-size: var(--font-s);
   font-weight: 700;
   border-radius: 65px;
+  transition: 0.1s;
+}
+
+.footer__column__button:hover {
+  transform: scale(1.05);
 }
 
 .footer__column__info {

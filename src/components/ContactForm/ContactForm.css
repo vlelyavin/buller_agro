@@ -72,4 +72,10 @@
   background: var(--black);
   margin: 30px 0 90px;
   font-size: var(--font-s);
+  transition: 0.1s;
+}
+
+.contact__form__button:hover {
+  transform: scale(1.05);
+  background: black;
 }

@@ -1,11 +1,19 @@
 import "./ProductListItem.css";
 import arrowIcon from "../../../assets/images/icons/arrowIcon.png";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export const ProductListItem = ({ product }) => {
+  const navigate = useNavigate();
+  const handleClick = (pathname, event) => {
+    event.preventDefault();
+    setTimeout(() => {
+      navigate(pathname);
+    }, 200);
+  };
   return (
     <Link
       to={product.linkTo}
+      onClick={(event) => handleClick(product.linkTo, event)}
       className="product__list__item"
       key={product.id}
       style={{
