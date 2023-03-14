@@ -4,11 +4,11 @@
   background: white;
   border-radius: 17px;
   position: relative;
-  padding: 0 0 0 300px;
+  padding: 0 0 0 370px;
 }
 
 .logistics__item__info {
-  padding: 50px 30px 50px 50px;
+  padding: 40px 30px 40px 40px;
   display: flex;
   flex-direction: column;
 }
@@ -23,15 +23,18 @@
 
 .logistics__row {
   display: flex;
-  align-items: center;
   gap: 28px;
-  flex: 1;
 }
 
 .logistics__column {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  width: 50%;
+}
+
+.logistics__column__item {
+  flex: 1;
 }
 
 .logistics__column__item,
@@ -53,7 +56,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 300px;
+  width: 370px;
   height: 100%;
   display: flex;
   align-items: center;
@@ -71,4 +74,5 @@
 .inline {
   display: flex;
   flex-direction: row;
+  flex-grow: 0;
 }

@@ -5,24 +5,25 @@ import grain from "../../../assets/images/products/grain.png";
 import trading from "../../../assets/images/products/trading.png";
 import "./ProductList.css";
 import { ProductListItem } from "../ProductListItem";
+import { ROUTES } from "../../../constants/routes";
 
 export const ProductList = () => {
   const products = [
-    { id: 1, title: "Petroleum Products", img: petroleum, background: "dimgray", linkTo: "petroleumProducts" },
+    { id: 1, title: "Petroleum Products", img: petroleum, background: "dimgray", linkTo: ROUTES.petroleum },
     {
       id: 2,
       title: "Sunflower Oil",
       img: sunflowerOil,
       background: "orange",
-      linkTo: "/sunflowerOil",
+      linkTo: ROUTES.sunflowerOil,
     },
-    { id: 3, title: "Grain", img: grain, background: "lightgreen", linkTo: "/grain" },
+    { id: 3, title: "Grain", img: grain, background: "lightgreen", linkTo: ROUTES.grain },
     {
       id: 4,
       title: "Trading",
       img: trading,
       background: "green",
-      // linkTo: "/sunflowerOil",
+      linkTo: ROUTES.process,
     },
   ];
   return (

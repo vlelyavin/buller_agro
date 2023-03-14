@@ -18,7 +18,7 @@ export const MainBanner = () => {
             <br /> Shipping Firm
           </p>
           <Link to={ROUTES.contact}>
-            <Button width="400px" height="60px" fontSize="25px" />
+            <Button width="320px" height="60px" fontSize="var(--font-l)" />
           </Link>
         </div>
       </Container>
