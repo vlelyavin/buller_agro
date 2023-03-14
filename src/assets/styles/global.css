@@ -18,6 +18,14 @@
   --purple: #7427f0;
   --placeholderClr: #787878;
   --errorPageBg: #272f36;
+
+  --font-xs: 0.888rem;
+  --font-s: 1rem;
+  --font-m: 1.111rem;
+  --font-l: 1.388rem;
+  --font-xl: 1.666rem;
+  --font-xxl: 2.222rem;
+  --font-xxxl: 4.166rem;
 }
 
 a {
@@ -50,6 +58,10 @@ input,
 textarea,
 body {
   font-family: var(--font-family);
+}
+
+html {
+  font-size: 16px;
 }
 
 body {

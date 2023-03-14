@@ -16,7 +16,9 @@ export const CategoriesSectionItem = ({ category }) => {
     >
       {category.id % 2 === 0 ? (
         <>
-          <img src={category.image} alt={category.title} className="category__section__item__image" />
+          <div className="category__section__item__image__container">
+            <img src={category.image} alt={category.title} className="category__section__item__image" />
+          </div>
           <div className="category__section__item__info">
             <h3
               className="category__section__item__info__title"
@@ -44,7 +46,9 @@ export const CategoriesSectionItem = ({ category }) => {
               ></p>
             )}
           </div>
-          <img src={category.image} alt={category.title} className="category__section__item__image" />
+          <div className="category__section__item__image__container">
+            <img src={category.image} alt={category.title} className="category__section__item__image" />
+          </div>
         </>
       )}
     </div>

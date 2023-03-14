@@ -10,9 +10,9 @@
   gap: 20px;
 }
 .iwd__info__title {
-  font-size: 30px;
+  font-size: var(--font-xl);
 }
 
 .iwd__info__description {
-  font-size: 20px;
+  font-size: var(--font-m);
 }

@@ -37,9 +37,9 @@ export const Petroleum = () => {
         <Title value="Categories" margin="80px 0 40px" />
         <CategoriesSection
           categories={[
-            { id: 1, title: "Gear oil", background: "dimgray", image: gearOilImage },
-            { id: 2, title: "Engine oil", background: "dimgray", image: engineOilImage },
-            { id: 3, title: "Fuel", background: "dimgray", image: fuelImage },
+            { id: 2, title: "Gear oil", background: "dimgray", image: gearOilImage },
+            { id: 3, title: "Engine oil", background: "dimgray", image: engineOilImage },
+            { id: 4, title: "Fuel", background: "dimgray", image: fuelImage },
           ]}
         />
         <Description value="The company offers high quality petroleum product" margin="80px 0 40px" />

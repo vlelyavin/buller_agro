@@ -5,4 +5,11 @@
   backdrop-filter: blur(12.5px);
   border-radius: 65px;
   font-weight: 700;
+  transition: 0.1s;
+}
+
+.button:hover {
+  background: black;
+  backdrop-filter: unset;
+  transform: scale(1.05);
 }

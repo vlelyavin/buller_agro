@@ -6,7 +6,7 @@ import trading from "../../../assets/images/products/trading.png";
 import "./ProductList.css";
 import { ProductListItem } from "../ProductListItem";
 
-export const ProductList = ({ title }) => {
+export const ProductList = () => {
   const products = [
     { id: 1, title: "Petroleum Products", img: petroleum, background: "dimgray", linkTo: "petroleumProducts" },
     {

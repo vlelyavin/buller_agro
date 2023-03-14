@@ -10,24 +10,25 @@ import { About } from "./pages/About";
 import { CodeOfConduct } from "./pages/CodeOfConduct";
 import { Work } from "./pages/Work/Work";
 import { NotFound } from "./pages/NotFound";
-import "./assets/styles/main.css";
+import { ROUTES } from "./constants/routes";
+import "./assets/styles/global.css";
 
 export const App = () => {
   return (
-    <div className="App">
+    <>
       <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/petroleum" element={<Petroleum />} />
-        <Route path="/sunflowerOil" element={<SunflowerOil />} />
-        <Route path="/grain" element={<Grain />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/codeOfConduct" element={<CodeOfConduct />} />
-        <Route path="/process" element={<Process />} />
-        <Route path="/work" element={<Work />} />
-        <Route path="/about" element={<About />} />
-        <Route path="*" element={<NotFound />} />
+        <Route path={ROUTES.initial} element={<Main />} />
+        <Route path={ROUTES.petroleum} element={<Petroleum />} />
+        <Route path={ROUTES.sunflowerOil} element={<SunflowerOil />} />
+        <Route path={ROUTES.grain} element={<Grain />} />
+        <Route path={ROUTES.contact} element={<Contact />} />
+        <Route path={ROUTES.codeOfConduct} element={<CodeOfConduct />} />
+        <Route path={ROUTES.process} element={<Process />} />
+        <Route path={ROUTES.work} element={<Work />} />
+        <Route path={ROUTES.about} element={<About />} />
+        <Route path={ROUTES.notFound} element={<NotFound />} />
       </Routes>
       <Footer />
-    </div>
+    </>
   );
 };

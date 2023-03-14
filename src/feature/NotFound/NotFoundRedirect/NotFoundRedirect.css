@@ -16,5 +16,5 @@
   align-items: center;
   gap: 13px;
   font-weight: 700;
-  font-size: 20px;
+  font-size: var(--font-m);
 }

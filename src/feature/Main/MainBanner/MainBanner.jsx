@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "../../../components/Button";
 import { Container } from "../../../components/Container/Container";
+import { ROUTES } from "../../../constants/routes";
 import "./MainBanner.css";
 
 export const MainBanner = () => {
@@ -16,7 +17,7 @@ export const MainBanner = () => {
             Energy and Agriculture, Investment and
             <br /> Shipping Firm
           </p>
-          <Link to="/contact">
+          <Link to={ROUTES.contact}>
             <Button width="400px" height="60px" fontSize="25px" />
           </Link>
         </div>

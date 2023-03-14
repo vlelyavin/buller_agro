@@ -14,7 +14,7 @@ export const DualColumnSection = ({ firstColumn, secondColumn }) => {
         </div>
         <div className="dual__column__section__item">
           <img src={secondColumn.image} alt={secondColumn.title} className="dual__column__section__item__image" />
-          {firstColumn.title && <h3 className="dual__column__section__item__title">{firstColumn.title}</h3>}
+          {secondColumn.title && <h3 className="dual__column__section__item__title">{secondColumn.title}</h3>}
           <p
             className="dual__column__section__item__description"
             dangerouslySetInnerHTML={{ __html: secondColumn.description }}

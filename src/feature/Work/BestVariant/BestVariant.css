@@ -14,7 +14,7 @@
 }
 
 .best__variant__info__title {
-  font-size: 40px;
+  font-size: var(--font-xxl);
 }
 
 .best__variant__info__description {

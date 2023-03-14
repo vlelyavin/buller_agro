@@ -4,16 +4,15 @@
   left: 50%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   color: white;
-  font-size: 18px;
   font-weight: 700;
-  max-width: 1450px;
+  max-width: 1350px;
   width: 100%;
   padding: 25px 70px;
   border-radius: 0px 0px 30px 30px;
   background: rgba(61, 61, 61, 0.5);
   backdrop-filter: blur(25.5px);
-
   transform: translateX(-50%);
   z-index: 2;
 }

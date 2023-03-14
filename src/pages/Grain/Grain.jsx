@@ -8,9 +8,9 @@ import { CenteredContainer } from "../../components/CenteredContainer";
 import { ContactForm } from "../../components/ContactForm";
 import grainPageBanner from "../../assets/images/banners/grainPageBanner.png";
 import wheatImage from "../../assets/images/categories/wheat.png";
-import sunflowerImage from "../../assets/images/categories/wheat.png";
-import cornImage from "../../assets/images/categories/wheat.png";
-import barleyImage from "../../assets/images/categories/wheat.png";
+import sunflowerImage from "../../assets/images/categories/sunflower.png";
+import cornImage from "../../assets/images/categories/corn.png";
+import barleyImage from "../../assets/images/categories/barley.png";
 
 export const Grain = () => {
   return (
@@ -63,7 +63,7 @@ export const Grain = () => {
           <Description
             value="Experienced professionals are always happy to offer you competitive prices for your products. We invite producers of grain products of all forms of ownership to business cooperation."
             margin="80px 0 40px"
-            fontSize="27px"
+            fontSize="var(--font-l)"
           />
           <Title value="THE COMPANY OFFERS HIGH QUALITY SUNFLOWER OIL" />
         </CenteredContainer>

@@ -5,6 +5,7 @@ import phoneIcon from "../../assets/images/icons/footer/footerPhoneIcon.png";
 import locationIcon from "../../assets/images/icons/footer/footerLocationIcon.png";
 import { Container } from "../Container/Container";
 import "./Footer.css";
+import { ROUTES } from "../../constants/routes";
 
 export const Footer = () => {
   return (
@@ -30,7 +31,9 @@ export const Footer = () => {
             </Link>
           </div>
           <div className="footer__column">
-            <button className="footer__column__button">Contact us</button>
+            <Link to={ROUTES.contact}>
+              <button className="footer__column__button">Contact us</button>
+            </Link>
             <div className="footer__column__info">
               <img src={locationIcon} alt="locationIcon" className="footer__column__info__line__icon" />
               <p>16 Mechnikova StreetKyiv 01021Ukraine</p>

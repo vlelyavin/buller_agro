@@ -12,5 +12,5 @@
 }
 
 .contact__info__line__text {
-  font-size: 25px;
+  font-size: var(--font-l);
 }
