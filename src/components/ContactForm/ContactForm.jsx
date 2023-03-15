@@ -1,3 +1,4 @@
+import { Button } from "../Button";
 import "./ContactForm.css";
 
 export const ContactForm = ({ title, description }) => {
@@ -15,7 +16,7 @@ export const ContactForm = ({ title, description }) => {
         <textarea className="contact__form__inputarea__details__textarea" placeholder="Text message" />
       </div>
       <div className="contact__form__button__container">
-        <button className="contact__form__button">Send</button>
+        <Button title="Send" width="210px" backgroundColor="var(--black)" />
       </div>
     </form>
   );

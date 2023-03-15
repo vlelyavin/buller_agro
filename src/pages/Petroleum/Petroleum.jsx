@@ -18,6 +18,8 @@ import gearOilSecond from "../../assets/images/horizontalDualColumn/gearOilSecon
 import engineOilFirst from "../../assets/images/horizontalDualColumn/engineOilFirst.png";
 import engineOilSecond from "../../assets/images/horizontalDualColumn/engineOilSecond.png";
 import petroleumPageBanner from "../../assets/images/banners/petroleumPageBanner.png";
+import { CenteredContainer } from "../../components/CenteredContainer";
+import { Button } from "../../components/Button";
 
 export const Petroleum = () => {
   return (
@@ -25,12 +27,12 @@ export const Petroleum = () => {
       <Header />
       <PageBanner
         title="Petroleum
-          <br /> products"
+          <br />products"
         background={petroleumPageBanner}
       />
       <Container>
         <Description
-          value="Substances obtained by processing the petroleum raw materials are one of the most popular commodities in the world. If your company needs to use special equipment, vehicles, generators, or any other devices that consume petroleum products, you must ensure its uninterrupted supply in the right quantities. Depending on the scale of the business and the number of orders, you may require different volumes of oil products. You can order fuels and lubricants (gasoline, diesel fuel) in bulk in any volume from us. We specialize in the wholesale of light and dark petroleum products. We can organize the delivery of any fuel type, on any scale and in any form (from a one-time transaction to regular supply on agreed dates). Firstly, it is needed by construction companies, industrial enterprises, the agro-industrial sector, transport companies, and gas stations.<br />
+          value="Substances obtained by processing the petroleum raw materials are one of the most popular commodities in the world. If your company needs to use special equipment, vehicles, generators, or any other devices that consume petroleum products, you must ensure its uninterrupted supply in the right quantities.<br /><br />Depending on the scale of the business and the number of orders, you may require different volumes of oil products. You can order fuels and lubricants (gasoline, diesel fuel) in bulk in any volume from us.<br /><br />We specialize in the wholesale of light and dark petroleum products. We can organize the delivery of any fuel type, on any scale and in any form (from a one-time transaction to regular supply on agreed dates).<br /><br />Firstly, it is needed by construction companies, industrial enterprises, the agro-industrial sector, transport companies, and gas stations.
           In addition to these enterprises, oil products may also be needed by companies from other areas (from shopping centers and warehouses to management companies of cottage settlements and residential complexes). The most common reason is power generators."
           margin="40px 0 0 0"
         />
@@ -63,17 +65,20 @@ export const Petroleum = () => {
           firstColumn={{
             title: "Diesel",
             description:
-              "Diesel fuel is one of the products of oil refining. It is basic for the following types of transport: railway locomotives;trucks;water transport;agricultural machinery;passenger cars with diesel engines.In addition to transport, diesel fuel is also used for electric generators of various capacities - from household ones, which are enough for a garage or summer cottage, to industrial ones - for manufacturing enterprises. Compared to gasoline generators, diesel generators have a wide range of power, higher efficiency, better resistance to constant high loads, and economy. Therefore, they are more often chosen for large objects, which means that they require a large amount of diesel fuel.",
+              "Diesel fuel is one of the products of oil refining. It is basic for the following types of transport: railway locomotives;trucks;water transport;agricultural machinery;passenger cars with diesel engines.In addition to transport, diesel fuel is also used for electric generators of various capacities - from household ones, which are enough for a garage or summer cottage, to industrial ones - for manufacturing enterprises.<br /><br />Compared to gasoline generators, diesel generators have a wide range of power, higher efficiency, better resistance to constant high loads, and economy. Therefore, they are more often chosen for large objects, which means that they require a large amount of diesel fuel.",
             image: dieselImage,
           }}
           secondColumn={{
             title: "Gasoline",
             description:
-              "Among all refined petroleum products, gasoline is one of the most massively demanded. On a huge scale, the population and business need it - for refueling vehicles (this is the main scope of its application).<br />In addition to refueling cars, different grades of gasoline are used:for construction work - as a solvent for paints and varnishes;for the chemical industry - for technolopurposes, to produce vegetable oils, paints, varnishes, mastics,as fuel for electric generators runnigasoline;as a degreaser and cleaner for electrical equipment, aircraft engines, parts.The average concan buy gasoline in small quantities at a gas station. But if you need wholesale deliveries, we can arthem. You can make both a large wholesale order and order a small batch, both in the form of a one-time and conclude a contract for the regular supply of your enterprise with the right amount of fuel and oright dates.",
+              "Among all refined petroleum products, gasoline is one of the most massively demanded. On a huge scale, the population and business need it - for refueling vehicles (this is the main scope of its application).<br /><br />In addition to refueling cars, different grades of gasoline are used: for construction work - as a solvent for paints and varnishes;for the chemical industry - for technological purposes, to produce vegetable oils, paints, varnishes, mastics,as fuel for electric generators running on gasoline;as a degreaser and cleaner for electrical equipment, aircraft engines, parts.The average consumer can buy gasoline in small quantities at a gas station. But if you need wholesale deliveries, we can arrange them.<br /><br />You can make both a large wholesale order and order a small batch, both in the form of a one-time deal, and conclude a contract for the regular supply of your enterprise with the right amount of fuel and on the right dates.",
             image: gasolineImage,
           }}
         />
-        <Title value="Gear oil" margin="80px 0 40px" />
+        <CenteredContainer margin="30px 0 0 0">
+          <Button width="270px" backgroundColor="var(--black)" fontSize="var(--font-m)" />
+        </CenteredContainer>
+        <Title value="Gear oil" margin="40px 0" />
         <HorizontalDualColumnSection
           firstRow={{
             image: gearOilFirst,

@@ -6,7 +6,7 @@
 
 .main__banner__info {
   position: absolute;
-  bottom: 130px;
+  bottom: 100px;
   left: 0;
   color: white;
 }
@@ -18,5 +18,5 @@
 
 .main__banner__info__description {
   font-size: 1.944rem;
-  margin: 30px 0 50px;
+  margin: 30px 0;
 }

@@ -60,7 +60,7 @@ export const Header = ({ backgroundColor, backdropFilter }) => {
       </nav>
       <div className="header__aside">
         <Link to={ROUTES.contact} onClick={(event) => handleClick(ROUTES.contact, event)}>
-          <Button width="150px" height="40px" fontSize="var(--font-xs)" />
+          <Button width="150px" fontSize="var(--font-xs)" />
         </Link>
         <img src={mailIcon} alt="mailIcon" className="header__aside__icon" />
         <img src={phoneIcon} alt="phoneIcon" className="header__aside__icon" />

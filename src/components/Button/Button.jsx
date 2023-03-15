@@ -1,12 +1,9 @@
 import "./Button.css";
 
-export const Button = ({ width, height, backgroundColor, fontSize }) => {
+export const Button = ({ title, width, backgroundColor, fontSize }) => {
   return (
-    <button
-      className="button"
-      style={{ width: width, height: height, backgroundColor: backgroundColor, fontSize: fontSize }}
-    >
-      Contact us
+    <button className="button" style={{ width: width, backgroundColor: backgroundColor, fontSize: fontSize }}>
+      {title ? title : "Contact us"}
     </button>
   );
 };

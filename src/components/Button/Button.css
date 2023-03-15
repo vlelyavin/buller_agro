@@ -1,11 +1,16 @@
 .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
+  padding: 10px 0;
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid white;
   backdrop-filter: blur(12.5px);
   border-radius: 65px;
   font-weight: 700;
   transition: 0.1s;
+  font-size: var(--font-s);
 }
 
 .button:hover {

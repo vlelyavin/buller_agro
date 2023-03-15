@@ -63,6 +63,7 @@
   width: 100%;
   display: flex;
   justify-content: flex-end;
+  margin: 25px 0 90px;
 }
 
 .contact__form__button {

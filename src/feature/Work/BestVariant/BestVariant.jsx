@@ -13,9 +13,11 @@ export const BestVariant = () => {
         </h2>
         <p className="best__variant__info__description">
           Our success is built on the skill set, experience and anticipation of entrepreneurs and leaders in their
-          field. Our team is the fundament of everything we do and are proud of. We recruit the best and also grow our
-          own talents. In all our offices and facilities, you will find outstanding individuals working to high
-          standards as part of a powerful, worldwide team.
+          field. Our team is the fundament of everything we do and are proud of.
+          <br />
+          <br />
+          We recruit the best and also grow our own talents. In all our offices and facilities, you will find
+          outstanding individuals working to high standards as part of a powerful, worldwide team.
         </p>
       </div>
     </section>

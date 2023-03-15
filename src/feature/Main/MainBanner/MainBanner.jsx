@@ -25,7 +25,7 @@ export const MainBanner = () => {
             <br /> Shipping Firm
           </p>
           <Link to={ROUTES.contact} onClick={(event) => handleClick(ROUTES.contact, event)}>
-            <Button width="320px" height="60px" fontSize="var(--font-l)" />
+            <Button width="290px" fontSize="var(--font-l)" />
           </Link>
         </div>
       </Container>
