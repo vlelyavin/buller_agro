@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bullet_agro/static/css/main.c420674e.css",
+    "main.css": "/bullet_agro/static/css/main.cfa060b0.css",
     "main.js": "/bullet_agro/static/js/main.4f577b2a.js",
     "static/media/mainBanner.png": "/bullet_agro/static/media/mainBanner.8672c1b3d8eb170b6ddd.png",
     "static/media/workPageBanner.png": "/bullet_agro/static/media/workPageBanner.43d1bb2b42432e5bcde1.png",
@@ -58,11 +58,11 @@
     "static/media/workWithUs.png": "/bullet_agro/static/media/workWithUs.a3056e4281a8048c5fa0.png",
     "static/media/quote.png": "/bullet_agro/static/media/quote.ec294c3c0208f6d8d426.png",
     "index.html": "/bullet_agro/index.html",
-    "main.c420674e.css.map": "/bullet_agro/static/css/main.c420674e.css.map",
+    "main.cfa060b0.css.map": "/bullet_agro/static/css/main.cfa060b0.css.map",
     "main.4f577b2a.js.map": "/bullet_agro/static/js/main.4f577b2a.js.map"
   },
   "entrypoints": [
-    "static/css/main.c420674e.css",
+    "static/css/main.cfa060b0.css",
     "static/js/main.4f577b2a.js"
   ]
 }
