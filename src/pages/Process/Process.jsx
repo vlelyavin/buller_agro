@@ -11,6 +11,8 @@ import geographicalExpansionImage from "../../assets/images/dualColumn/geographi
 import marketplaceImage from "../../assets/images/dualColumn/marketplace.png";
 import processPageBanner from "../../assets/images/banners/processPageBanner.png";
 import { Button } from "../../components/Button";
+import { Link } from "react-router-dom";
+import { ROUTES } from "../../constants/routes";
 
 export const Process = () => {
   return (
@@ -39,7 +41,9 @@ export const Process = () => {
           }}
         />
         <CenteredContainer margin="15px 0 -20px 0">
-          <Button width="270px" backgroundColor="var(--black)" fontSize="var(--font-m)" />
+          <Link to={ROUTES.contact}>
+            <Button width="270px" backgroundColor="var(--black)" fontSize="var(--font-m)" />
+          </Link>
         </CenteredContainer>
         <ContactForm title="Do you have any questions?" description="Write to us and our manager will help you" />
       </Container>

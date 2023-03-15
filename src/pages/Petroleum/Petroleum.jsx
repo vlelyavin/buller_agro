@@ -20,6 +20,8 @@ import engineOilSecond from "../../assets/images/horizontalDualColumn/engineOilS
 import petroleumPageBanner from "../../assets/images/banners/petroleumPageBanner.png";
 import { CenteredContainer } from "../../components/CenteredContainer";
 import { Button } from "../../components/Button";
+import { Link } from "react-router-dom";
+import { ROUTES } from "../../constants/routes";
 
 export const Petroleum = () => {
   return (
@@ -76,7 +78,9 @@ export const Petroleum = () => {
           }}
         />
         <CenteredContainer margin="30px 0 0 0">
-          <Button width="270px" backgroundColor="var(--black)" fontSize="var(--font-m)" />
+          <Link to={ROUTES.contact}>
+            <Button width="270px" backgroundColor="var(--black)" fontSize="var(--font-m)" />
+          </Link>
         </CenteredContainer>
         <Title value="Gear oil" margin="40px 0" />
         <HorizontalDualColumnSection
