@@ -1,6 +1,7 @@
 .infrastructure__item {
   display: flex;
   background: white;
+  border-radius: 17px;
 }
 
 .infrastructure__item__info {

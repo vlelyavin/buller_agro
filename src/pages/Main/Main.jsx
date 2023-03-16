@@ -25,7 +25,7 @@ export const Main = () => {
           firstColumn={{ image: byLand, description: "Sunflower oil trade from<br /> Ukraine to EU countries" }}
           secondColumn={{ image: byShip, description: "Diesel fuel trade from<br /> Turkey to Ukraine" }}
         />
-        <Title value="Why choose us" margin="190px 0 40px" />
+        <Title value="Why choose us" margin="160px 0 40px" />
         <Benefits />
         <Title value="FAQ" margin="80px 0 40px" />
         <QuestionsSection

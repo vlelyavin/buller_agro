@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 120px;
+  width: 40%;
 }
 
 .product__list__item__info__icon {
@@ -21,13 +21,12 @@
 }
 
 .product__list__item__info__title {
-  font-size: 40px;
+  font-size: var(--font-xxl);
   width: 220px;
 }
 
 .product__list__item__image__container {
-  max-width: 700px;
-  height: 100%;
+  width: 60%;
   overflow: hidden;
   border-radius: 17px;
 }
