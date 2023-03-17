@@ -35,9 +35,29 @@
   position: absolute;
   top: 2px;
   right: -15px;
-  width: 25px;
-  height: 25px;
+  width: 28px;
+  height: 28px;
   object-fit: cover;
+}
+
+.menu__header__button__line {
+  position: relative;
+  width: 28px;
+  height: 4px;
+  background: white;
+  border-radius: 5px;
+}
+
+.left {
+  top: 10px;
+  left: 0;
+  transform: rotate(45deg);
+}
+
+.right {
+  top: 6px;
+  right: 0;
+  transform: rotate(-45deg);
 }
 
 .menu__info {

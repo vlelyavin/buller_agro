@@ -4,7 +4,6 @@ import { Button } from "../../../components/Button";
 import mailIcon from "../../../assets/images/icons/mailIcon.png";
 import phoneIcon from "../../../assets/images/icons/phoneIcon.png";
 import fullLogoWhiteImage from "../../../assets/images/icons/fullLogoWhite.png";
-import crossIcon from "../../../assets/images/icons/cross.png";
 import "./Menu.css";
 
 export const Menu = ({ menuRef, handleClick, transformMenu }) => {
@@ -14,7 +13,10 @@ export const Menu = ({ menuRef, handleClick, transformMenu }) => {
         <Link to={ROUTES.initial} className="menu__header__logo__container">
           <img src={fullLogoWhiteImage} alt="fullLogoImage" className="menu__header__logo" />
         </Link>
-        <img src={crossIcon} alt="crossImage" className="menu__header__button" onClick={() => transformMenu("100vw")} />
+        <div className="menu__header__button" onClick={() => transformMenu("100vw")}>
+          <div className="menu__header__button__line left"></div>
+          <div className="menu__header__button__line right"></div>
+        </div>
       </div>
       <div className="menu__info">
         <Link to={ROUTES.contact} onClick={(event) => handleClick(ROUTES.contact, event)}>
