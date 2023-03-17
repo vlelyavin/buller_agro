@@ -9,6 +9,7 @@
   bottom: 100px;
   left: 0;
   color: white;
+  padding: 0 50px;
 }
 
 .main__banner__info__title {
@@ -19,4 +20,40 @@
 .main__banner__info__description {
   font-size: 1.944rem;
   margin: 30px 0;
+}
+
+.main__banner__info__button {
+  display: block;
+}
+
+.main__banner__info__button__mobile {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .main__banner__info__button {
+    display: none;
+  }
+  .main__banner__info__button__mobile {
+    display: block;
+  }
+
+  .main__banner {
+    height: 480px;
+  }
+  .main__banner__info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .main__banner__info__title {
+    font-size: 2.5rem;
+  }
+  .main__banner__info__description {
+    text-align: center;
+    font-size: var(--font-l);
+    margin: 10px 0 20px;
+  }
 }

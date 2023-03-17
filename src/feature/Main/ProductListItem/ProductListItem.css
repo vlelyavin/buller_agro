@@ -36,3 +36,36 @@
   object-fit: cover;
   object-position: center;
 }
+
+@media screen and (max-width: 1290px) {
+  .product__list__item {
+    width: 45%;
+    display: block;
+    text-align: center;
+  }
+  .product__list__item__info {
+    position: relative;
+    width: 100%;
+    padding: 8px 15px;
+    height: 80px;
+    justify-content: center;
+  }
+  .product__list__item__info__title {
+    font-size: var(--font-l);
+  }
+  .product__list__item__info__icon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 10px;
+    height: 10px;
+  }
+  .product__list__item__image__container {
+    width: 100%;
+    height: 220px;
+  }
+  .product__list__item__image {
+    width: 100%;
+    height: 100%;
+  }
+}

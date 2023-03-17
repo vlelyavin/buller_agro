@@ -1,7 +1,6 @@
 .benefits__list__item {
   position: relative;
   width: 31%;
-  min-width: 250px;
   border-radius: 20px;
   overflow: hidden;
   color: white;
@@ -30,4 +29,11 @@
   padding: 15px 30px;
   display: flex;
   align-items: center;
+}
+
+@media screen and (max-width: 1290px) {
+  .benefits__list__item {
+    width: 45%;
+    height: 190px;
+  }
 }

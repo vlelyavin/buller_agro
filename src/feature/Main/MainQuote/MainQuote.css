@@ -1,11 +1,45 @@
-.main__quote__container {
+.main__quote {
+  position: relative;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border-radius: 20px;
+  padding: 60px 0;
+  margin: 40px 0;
 }
 
-.main__quote {
-  width: 100%;
-  border-radius: 20px;
-  margin: 33px 0;
-  object-fit: cover;
-  object-position: center;
+.main__quote__title {
+  font-style: italic;
+  font-weight: 700;
+}
+
+.main__quote__logo {
+  position: absolute;
+  top: 50%;
+  right: 50px;
+  transform: translateY(-50%);
+  height: 60px;
+  width: auto;
+}
+
+.main__quote__logo__mobile {
+  display: none;
+  width: 28px;
+  height: 31px;
+}
+
+@media screen and (max-width: 900px) {
+  .main__quote {
+    flex-direction: column;
+    gap: 16px;
+    padding: 18px 0;
+  }
+  .main__quote__logo {
+    display: none;
+  }
+  .main__quote__logo__mobile {
+    display: block;
+  }
 }

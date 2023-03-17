@@ -1,4 +1,4 @@
-import { CaterogiesContainer } from "../../../components/CaterogiesContainer";
+import { CategoriesContainer } from "../../../components/CategoriesContainer";
 import petroleum from "../../../assets/images/products/petroleum.png";
 import sunflowerOil from "../../../assets/images/products/sunflowerOil.png";
 import grain from "../../../assets/images/products/grain.png";
@@ -27,10 +27,10 @@ export const ProductList = () => {
     },
   ];
   return (
-    <CaterogiesContainer>
+    <CategoriesContainer>
       {products.map((product) => (
         <ProductListItem product={product} key={product.id} />
       ))}
-    </CaterogiesContainer>
+    </CategoriesContainer>
   );
 };

@@ -8,7 +8,6 @@ export const TripleColumnSection = () => {
           Working at
           <br /> Bullet Agro
         </h3>
-
         <p className="triple__column__section__item__description">Load yor CV here</p>
         <button className="triple__column__section__item__button">Select a file</button>
       </div>

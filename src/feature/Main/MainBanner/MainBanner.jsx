@@ -12,6 +12,7 @@ export const MainBanner = () => {
       navigate(pathname);
     }, 200);
   };
+
   return (
     <div className="main__banner">
       <Container>
@@ -24,8 +25,19 @@ export const MainBanner = () => {
             Energy and Agriculture, Investment and
             <br /> Shipping Firm
           </p>
-          <Link to={ROUTES.contact} onClick={(event) => handleClick(ROUTES.contact, event)}>
+          <Link
+            to={ROUTES.contact}
+            onClick={(event) => handleClick(ROUTES.contact, event)}
+            className="main__banner__info__button"
+          >
             <Button width="290px" fontSize="var(--font-l)" />
+          </Link>
+          <Link
+            to={ROUTES.contact}
+            onClick={(event) => handleClick(ROUTES.contact, event)}
+            className="main__banner__info__button__mobile"
+          >
+            <Button width="200px" fontSize="var(--font-m)" />
           </Link>
         </div>
       </Container>

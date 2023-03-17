@@ -1,1 +1,0 @@
-export { CaterogiesContainer } from "./CaterogiesContainer";

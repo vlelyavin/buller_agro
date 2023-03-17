@@ -24,3 +24,13 @@
   justify-content: center;
   gap: 20px;
 }
+
+@media screen and (max-width: 1290px) {
+  .benefits__list {
+    justify-content: center;
+    gap: 20px;
+  }
+  .benefits__description {
+    margin: 20px 0 40px;
+  }
+}

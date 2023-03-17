@@ -35,28 +35,28 @@ export const Benefits = () => {
       title: "Our<br /> Mission",
       description:
         "To built trust-full relationships with our clients, strategically using our expertise in global trade to add unique value to their business via bridging energy and agriculture trading legs",
-      background: "lightgreen",
+      background: "green",
     },
     {
       id: 2,
       title: "Vision",
       description:
         "We see international trading as a business of people, we build business with partners to open new horizons.",
-      background: "orange",
+      background: "purple",
     },
     {
       id: 3,
       title: "Values",
       description:
         "We are convinced that global trade is about trust, flexibility, joy of communication and networking, team efforts and constant self improvement",
-      background: "purple",
+      background: "orange",
     },
     {
       id: 4,
       title: "Purpose",
       description:
         "Connect markets with surplus and deficit of energy & agri via our shipping fleet and expertise in reshaping world of new order",
-      background: "lightgreen",
+      background: "green",
     },
   ];
   return (

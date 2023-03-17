@@ -13,7 +13,7 @@ import byShip from "../../assets/images/tradeDirections/byShip.png";
 
 export const Main = () => {
   return (
-    <main className="main">
+    <>
       <Header backdropFilter="none" backgroundColor="unset" />
       <MainBanner />
       <Container>
@@ -22,8 +22,8 @@ export const Main = () => {
         <ProductList />
         <Title value="Most popular trade directions" margin="70px 0 40px" />
         <DualColumnSection
-          firstColumn={{ image: byLand, description: "Sunflower oil trade from<br /> Ukraine to EU countries" }}
-          secondColumn={{ image: byShip, description: "Diesel fuel trade from<br /> Turkey to Ukraine" }}
+          firstColumn={{ image: byLand, description: "Sunflower oil trade from Ukraine to EU countries" }}
+          secondColumn={{ image: byShip, description: "Diesel fuel trade from Turkey to Ukraine" }}
         />
         <Title value="Why choose us" margin="160px 0 40px" />
         <Benefits />
@@ -50,6 +50,6 @@ export const Main = () => {
         />
         <ContactForm title="Do you have any questions?" description="Write to us and our manager will help you" />
       </Container>
-    </main>
+    </>
   );
 };

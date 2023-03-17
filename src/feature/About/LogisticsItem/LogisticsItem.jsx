@@ -5,6 +5,7 @@ export const LogisticsItem = ({ vessel }) => {
     <div className="logistics__item">
       <div className="logistics__item__image__container">
         <img src={vessel.image} alt={`${vessel.title}`} className="logistics__item__image" />
+        <img src={vessel.mobileImage} alt={`${vessel.title}`} className="logistics__item__image__mobile" />
       </div>
       <div className="logistics__item__info">
         <h3 className="logistics__item__info__title">{vessel.title}</h3>

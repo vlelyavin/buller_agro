@@ -21,7 +21,7 @@ export const Footer = () => {
         <div className="footer__row">
           <div className="footer__column">
             <img src={logo} alt="logo" className="footer__column__logo" />
-            <p>
+            <p className="footer__column__text">
               All rights reserved.
               <br /> www.bullet-agro.com
             </p>
@@ -55,15 +55,15 @@ export const Footer = () => {
             </Link>
             <div className="footer__column__info">
               <img src={locationIcon} alt="locationIcon" className="footer__column__info__line__icon" />
-              <p>16 Mechnikova StreetKyiv 01021Ukraine</p>
+              <p className="footer__column__text">16 Mechnikova Street, Kyiv, 01021, Ukraine</p>
             </div>
             <div className="footer__column__info">
               <img src={mailIcon} alt="mailIcon" className="footer__column__info__line__icon" />
-              <p>info@bulletagro.com</p>
+              <p className="footer__column__text">info@bulletagro.com</p>
             </div>
             <div className="footer__column__info">
               <img src={phoneIcon} alt="phoneIcon" className="footer__column__info__line__icon" />
-              <p>+41 79 674 96 03</p>
+              <p className="footer__column__text">+41 79 674 96 03</p>
             </div>
           </div>
         </div>

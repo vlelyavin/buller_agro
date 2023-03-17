@@ -6,11 +6,7 @@ export const BestVariant = () => {
     <section className="best__variant">
       <img src={bestVariantImage} alt="bestVariantImage" className="best__variant__image" />
       <div className="best__variant__info">
-        <h2 className="best__variant__info__title">
-          Why our
-          <br /> company is the
-          <br /> best variant?
-        </h2>
+        <h2 className="best__variant__info__title">Why our company is the best variant?</h2>
         <p className="best__variant__info__description">
           Our success is built on the skill set, experience and anticipation of entrepreneurs and leaders in their
           field. Our team is the fundament of everything we do and are proud of.

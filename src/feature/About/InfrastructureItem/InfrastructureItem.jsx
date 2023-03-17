@@ -3,7 +3,10 @@ import "./InfrastructureItem.css";
 export const InfrastructureItem = ({ item }) => {
   return (
     <div className="infrastructure__item">
-      <img className="infrastructure__item__image" src={item.image} alt={`${item.title}`} />
+      <div className="infrastructure__item__image__container">
+        <img className="infrastructure__item__image" src={item.image} alt={`${item.title}`} />
+        <img className="infrastructure__item__image__mobile" src={item.mobileImage} alt={`${item.title}`} />
+      </div>
       <div className="infrastructure__item__info">
         <h3 className="infrastructure__item__info__title">{item.title}</h3>
         <div className="infrastructure__item__info__description">

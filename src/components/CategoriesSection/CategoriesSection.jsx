@@ -1,13 +1,12 @@
 import { CategoriesSectionItem } from "../CategoriesSectionItem";
-import { CaterogiesContainer } from "../CaterogiesContainer";
-import "./CategoriesSection.css";
+import { CategoriesContainer } from "../CategoriesContainer";
 
 export const CategoriesSection = ({ categories }) => {
   return (
-    <CaterogiesContainer>
+    <CategoriesContainer>
       {categories.map((category) => (
         <CategoriesSectionItem category={category} key={category.id} />
       ))}
-    </CaterogiesContainer>
+    </CategoriesContainer>
   );
 };

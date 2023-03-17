@@ -1,10 +1,7 @@
 .benefits__summary__item {
-  width: 100%;
-  height: auto;
   display: flex;
   align-items: center;
   border-radius: 17px;
-  overflow: hidden;
   background: white;
 }
 
@@ -25,4 +22,18 @@
 .benefits__summary__item__description {
   padding: 60px 110px;
   font-size: var(--font-m);
+}
+
+@media screen and (max-width: 1290px) {
+  .benefits__summary__item {
+    flex-direction: column;
+  }
+  .benefits__summary__item__title {
+    width: 100%;
+    height: 100px;
+    padding: 0 30px;
+  }
+  .benefits__summary__item__description {
+    padding: 15px 30px;
+  }
 }

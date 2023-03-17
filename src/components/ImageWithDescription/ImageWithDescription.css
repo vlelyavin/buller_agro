@@ -1,6 +1,5 @@
 .iwd {
   display: flex;
-
   gap: 30px;
 }
 
@@ -30,4 +29,21 @@
 
 .iwd__info__description {
   font-size: var(--font-m);
+}
+
+@media screen and (max-width: 800px) {
+  .iwd {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .iwd__info {
+    gap: 10px;
+  }
+  .iwd__image__container {
+    width: 100%;
+  }
+  .iwd__info {
+    width: 100%;
+  }
 }

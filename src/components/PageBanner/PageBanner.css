@@ -1,6 +1,7 @@
 .page__banner {
   width: 100%;
   height: 620px;
+  padding: 0 25px;
 }
 
 .page__banner__info {
@@ -22,4 +23,17 @@
 .page__banner__info__title {
   font-size: var(--font-xxxl);
   line-height: 103.18%;
+}
+
+@media screen and (max-width: 800px) {
+  .page__banner {
+    height: 420px;
+  }
+  .page__banner__info {
+    bottom: 25px;
+    gap: 8px;
+  }
+  .page__banner__info__title {
+    font-size: 3.5rem;
+  }
 }

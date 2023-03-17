@@ -27,3 +27,17 @@
   font-size: var(--font-m);
   margin: 25px 0;
 }
+
+@media screen and (max-width: 1290px) {
+  .dual__column__section {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 30px;
+  }
+  .dual__column__section__item {
+    width: 100%;
+  }
+  .dual__column__section__item__description {
+    margin: 15px 0 0 0;
+  }
+}

@@ -1,10 +1,13 @@
-import quote from "../../../assets/images/quote.png";
+import fullLogo from "../../../assets/images/icons/fullLogo.png";
+import logo from "../../../assets/images/icons/logo.png";
 import "./MainQuote.css";
 
 export const MainQuote = () => {
   return (
-    <div className="main__quote__container">
-      <img src={quote} alt="quoteImage" className="main__quote" />
+    <div className="main__quote">
+      <h2 className="main__quote__title">« We do - what others don’t »</h2>
+      <img src={fullLogo} alt="fullLogo" className="main__quote__logo" />
+      <img src={logo} alt="mobileQuoteImage" className="main__quote__logo__mobile" />
     </div>
   );
 };

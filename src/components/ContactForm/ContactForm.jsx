@@ -15,8 +15,11 @@ export const ContactForm = ({ title, description }) => {
         </div>
         <textarea className="contact__form__inputarea__details__textarea" placeholder="Text message" />
       </div>
-      <div className="contact__form__button__container">
+      <div className="contact__form__button">
         <Button title="Send" width="210px" backgroundColor="var(--black)" />
+      </div>
+      <div className="contact__form__button__mobile">
+        <Button title="Send" width="100%" backgroundColor="var(--black)" />
       </div>
     </form>
   );
