@@ -22,10 +22,6 @@
   flex-shrink: 0;
 }
 
-.best__variant__info__description {
-  min-width: 350px;
-}
-
 @media screen and (max-width: 1290px) {
   .best__variant__info {
     flex-direction: column;

@@ -23,7 +23,8 @@
 @media screen and (max-width: 900px) {
   .wwu {
     gap: 30px;
-    padding: 0 30px;
+    padding: 20px 30px;
+    height: auto;
   }
   .wwu__logo {
     display: none;

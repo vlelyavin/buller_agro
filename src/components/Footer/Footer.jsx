@@ -21,7 +21,7 @@ export const Footer = () => {
         <div className="footer__row">
           <div className="footer__column">
             <img src={logo} alt="logo" className="footer__column__logo" />
-            <p className="footer__column__text">
+            <p className="footer__column__rights">
               All rights reserved.
               <br /> www.bullet-agro.com
             </p>
@@ -55,7 +55,10 @@ export const Footer = () => {
             </Link>
             <div className="footer__column__info">
               <img src={locationIcon} alt="locationIcon" className="footer__column__info__line__icon" />
-              <p className="footer__column__text">16 Mechnikova Street, Kyiv, 01021, Ukraine</p>
+              <p className="footer__column__text">
+                16 Mechnikova Street, Kyiv,
+                <br /> 01021, Ukraine
+              </p>
             </div>
             <div className="footer__column__info">
               <img src={mailIcon} alt="mailIcon" className="footer__column__info__line__icon" />
