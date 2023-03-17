@@ -48,6 +48,34 @@ export const Footer = () => {
             >
               Grain
             </Link>
+            <Link
+              to={ROUTES.codeOfConduct}
+              onClick={(event) => handleClick(ROUTES.codeOfConduct, event)}
+              className="footer__column__link"
+            >
+              Code of conduct
+            </Link>
+            <Link
+              to={ROUTES.process}
+              onClick={(event) => handleClick(ROUTES.process, event)}
+              className="footer__column__link"
+            >
+              Process
+            </Link>
+            <Link
+              to={ROUTES.work}
+              onClick={(event) => handleClick(ROUTES.work, event)}
+              className="footer__column__link"
+            >
+              Work
+            </Link>
+            <Link
+              to={ROUTES.about}
+              onClick={(event) => handleClick(ROUTES.about, event)}
+              className="footer__column__link"
+            >
+              About us
+            </Link>
           </div>
           <div className="footer__column">
             <Link to={ROUTES.contact} onClick={(event) => handleClick(ROUTES.contact, event)}>
