@@ -27,6 +27,7 @@
 @media screen and (max-width: 1290px) {
   .benefits__summary__item {
     flex-direction: column;
+    width: 100%;
   }
   .benefits__summary__item__title {
     width: 100%;
