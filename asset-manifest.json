@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bullet_agro/static/css/main.9809e09e.css",
-    "main.js": "/bullet_agro/static/js/main.e9e2c8ed.js",
+    "main.css": "/bullet_agro/static/css/main.936396f1.css",
+    "main.js": "/bullet_agro/static/js/main.f5fd4bb5.js",
     "static/media/mainBanner.png": "/bullet_agro/static/media/mainBanner.8672c1b3d8eb170b6ddd.png",
     "static/media/workPageBanner.png": "/bullet_agro/static/media/workPageBanner.43d1bb2b42432e5bcde1.png",
     "static/media/processPageBanner.png": "/bullet_agro/static/media/processPageBanner.83ea86847039361300c6.png",
@@ -62,11 +62,11 @@
     "static/media/lisaMobile.png": "/bullet_agro/static/media/lisaMobile.1d1eb525c863b168795b.png",
     "static/media/agarthaMobile.png": "/bullet_agro/static/media/agarthaMobile.46e6f0a90bb258f36fac.png",
     "index.html": "/bullet_agro/index.html",
-    "main.9809e09e.css.map": "/bullet_agro/static/css/main.9809e09e.css.map",
-    "main.e9e2c8ed.js.map": "/bullet_agro/static/js/main.e9e2c8ed.js.map"
+    "main.936396f1.css.map": "/bullet_agro/static/css/main.936396f1.css.map",
+    "main.f5fd4bb5.js.map": "/bullet_agro/static/js/main.f5fd4bb5.js.map"
   },
   "entrypoints": [
-    "static/css/main.9809e09e.css",
-    "static/js/main.e9e2c8ed.js"
+    "static/css/main.936396f1.css",
+    "static/js/main.f5fd4bb5.js"
   ]
 }
