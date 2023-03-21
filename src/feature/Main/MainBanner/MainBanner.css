@@ -9,7 +9,6 @@
   bottom: 100px;
   left: 0;
   color: white;
-  padding: 0 50px;
 }
 
 .main__banner__info__title {
@@ -30,7 +29,7 @@
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .main__banner__info__button {
     display: none;
   }
