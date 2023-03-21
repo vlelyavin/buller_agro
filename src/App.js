@@ -12,6 +12,7 @@ import { Work } from "./pages/Work/Work";
 import { NotFound } from "./pages/NotFound";
 import { ROUTES } from "./constants/routes";
 import "./assets/styles/global.css";
+import "./assets/styles/fonts.css";
 import { useEffect } from "react";
 
 export const App = () => {

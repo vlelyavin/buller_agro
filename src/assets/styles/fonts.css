@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Aeroport";
+  src: local("Aeroport Regular"), local("Aeroport-Regular"), url("./fonts/Aeroport/Aeroport.woff2") format("woff2"),
+    url("./fonts/Aeroport/Aeroport.woff") format("woff"), url("./fonts/Aeroport/Aeroport.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Aeroport";
+  src: local("Aeroport Bold"), local("Aeroport-Bold"), url("./fonts/Aeroport/Aeroport-Bold.woff2") format("woff2"),
+    url("./fonts/Aeroport/Aeroport-Bold.woff") format("woff"),
+    url("./fonts/Aeroport/Aeroport-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
