@@ -21,3 +21,11 @@
 .contact__location__info__line__text {
   font-size: var(--font-m);
 }
+
+@media screen and (max-width: 800px) {
+  .contact__location__info {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+}

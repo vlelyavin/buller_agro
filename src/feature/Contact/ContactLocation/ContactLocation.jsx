@@ -15,7 +15,7 @@ export const ContactLocation = () => {
       <div className="contact__location__info">
         <div className="contact__location__info__line">
           <img src={blackLocationIcon} alt="blackLocationIcon" />
-          <p className="contact__location__info__line__text">16 Mechnikova StreetKyiv 01021Ukraine</p>
+          <p className="contact__location__info__line__text">16 Mechnikova Street, Kyiv, 01021, Ukraine</p>
         </div>
         <div className="contact__location__info__line">
           <img src={blackMailIcon} alt="blackLocationIcon" />

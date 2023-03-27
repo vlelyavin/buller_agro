@@ -14,7 +14,7 @@ import byShip from "../../assets/images/tradeDirections/byShip.png";
 export const Main = () => {
   return (
     <>
-      <Header backdropFilter="none" backgroundColor="unset" />
+      <Header />
       <MainBanner />
       <Container>
         <MainQuote />

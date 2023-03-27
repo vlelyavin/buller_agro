@@ -13,7 +13,6 @@ export const ContactForm = ({ title, description }) => {
     message: "",
   });
   const [errors, setErrors] = useState({});
-
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
   const handleInputChange = (event) => {

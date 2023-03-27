@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
 import { Main } from "./pages/Main";
 import { Footer } from "./components/Footer";
@@ -13,14 +14,21 @@ import { NotFound } from "./pages/NotFound";
 import { ROUTES } from "./constants/routes";
 import "./assets/styles/global.css";
 import "./assets/styles/fonts.css";
-import { useEffect } from "react";
 
 export const App = () => {
-  const { pathname } = useLocation();
+  const location = useLocation();
+
+  useEffect(() => {
+    document.title = "Bullet agro";
+    document
+      .querySelector('meta[name="description"]')
+      .setAttribute("content", "Energy and Agriculture, Investment and Shipping Firm");
+  }, []);
 
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [pathname]);
+  }, [location]);
+
   return (
     <>
       <Routes>
