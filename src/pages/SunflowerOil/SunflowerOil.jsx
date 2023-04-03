@@ -14,10 +14,15 @@ import cosmeticSunflowerOilImage from "../../assets/images/categories/cosmeticSu
 import sunflowerOilPageBanner from "../../assets/images/banners/sunflowerOilPageBanner.png";
 import containerImage from "../../assets/images/dualColumn/container.png";
 import oilBotttlesImage from "../../assets/images/dualColumn/oilBotttles.png";
+import { Helmet } from "react-helmet";
 
 export const SunflowerOil = () => {
   return (
     <>
+      <Helmet>
+        <title>Bullet agro</title>
+        <meta name="description" content="Energy and Agriculture, Investment and Shipping Firm." />
+      </Helmet>
       <Header />
       <PageBanner title="Sunflower<br /> oil" background={sunflowerOilPageBanner} />
       <Container>

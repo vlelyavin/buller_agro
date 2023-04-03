@@ -1,8 +1,8 @@
 import { Link, useNavigate } from "react-router-dom";
-import logo from "../../assets/images/icons/logo.png";
-import mailIcon from "../../assets/images/icons/footer/footerMailIcon.png";
-import phoneIcon from "../../assets/images/icons/footer/footerPhoneIcon.png";
-import locationIcon from "../../assets/images/icons/footer/footerLocationIcon.png";
+import logo from "../../assets/images/icons/logo.svg";
+import mailIcon from "../../assets/images/icons/footer/footerMailIcon.svg";
+import phoneIcon from "../../assets/images/icons/footer/footerPhoneIcon.svg";
+import locationIcon from "../../assets/images/icons/footer/footerLocationIcon.svg";
 import { Container } from "../Container/Container";
 import "./Footer.css";
 import { ROUTES } from "../../constants/routes";

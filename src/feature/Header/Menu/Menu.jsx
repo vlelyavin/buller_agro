@@ -1,12 +1,15 @@
 import { Link } from "react-router-dom";
 import { ROUTES } from "../../../constants/routes";
 import { Button } from "../../../components/Button";
-import mailIcon from "../../../assets/images/icons/mailIcon.png";
-import phoneIcon from "../../../assets/images/icons/phoneIcon.png";
-import fullLogoWhiteImage from "../../../assets/images/icons/fullLogoWhite.png";
+import mailIcon from "../../../assets/images/icons/mailIcon.svg";
+import phoneIcon from "../../../assets/images/icons/phoneIcon.svg";
+import fullLogoWhiteImage from "../../../assets/images/icons/fullLogoWhite.svg";
+import copyIcon from "../../../assets/images/icons/copyIcon.png";
 import "./Menu.css";
+import { useState } from "react";
 
-export const Menu = ({ menuRef, handleClick, transformMenu }) => {
+export const Menu = ({ menuRef, handleClick, transformMenu, copyToClipboard }) => {
+  const [isMenuEmailIconVisible, toggleMenuEmailIconVisibility] = useState(true);
   return (
     <div className="menu" ref={menuRef}>
       <div className="menu__header">
@@ -23,8 +26,31 @@ export const Menu = ({ menuRef, handleClick, transformMenu }) => {
           <Button width="180px" fontSize="var(--font-m)" />
         </Link>
         <div className="menu__info__icons">
-          <img src={mailIcon} alt="mailIcon" className="menu__info__icon" />
-          <img src={phoneIcon} alt="phoneIcon" className="menu__info__icon" />
+          <div className="menu__info__icon__container">
+            {isMenuEmailIconVisible ? (
+              <img
+                src={mailIcon}
+                alt="mailIcon"
+                className="menu__info__icon"
+                onMouseOver={() => toggleMenuEmailIconVisibility(false)}
+                onClick={() => toggleMenuEmailIconVisibility(false)}
+              />
+            ) : (
+              <img
+                src={copyIcon}
+                alt="copyIcon"
+                className="menu__info__icon"
+                onClick={() => {
+                  toggleMenuEmailIconVisibility(true);
+                  copyToClipboard("info@bullet-agro.com");
+                }}
+                onMouseOut={() => toggleMenuEmailIconVisibility(true)}
+              />
+            )}
+          </div>
+          <div className="menu__info__icon__container">
+            <img src={phoneIcon} alt="phoneIcon" className="menu__info__icon" />
+          </div>
         </div>
       </div>
       <nav className="menu__nav">

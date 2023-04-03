@@ -1,5 +1,5 @@
 import fullLogo from "../../../assets/images/icons/fullLogo.png";
-import logo from "../../../assets/images/icons/logo.png";
+import logo from "../../../assets/images/icons/logo.svg";
 import "./MainQuote.css";
 
 export const MainQuote = () => {

@@ -1,11 +1,11 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import logo from "../../assets/images/icons/logo.png";
-import mailIcon from "../../assets/images/icons/mailIcon.png";
-import phoneIcon from "../../assets/images/icons/phoneIcon.png";
-import mobileMailIcon from "../../assets/images/icons/mobile/mobileMailIcon.png";
-import mobilePhoneIcon from "../../assets/images/icons/mobile/mobilePhoneIcon.png";
-import mobileMenuIcon from "../../assets/images/icons/mobile/mobileMenuIcon.png";
+import logo from "../../assets/images/icons/logo.svg";
+import mailIcon from "../../assets/images/icons/mailIcon.svg";
+import phoneIcon from "../../assets/images/icons/phoneIcon.svg";
+import mobileMailIcon from "../../assets/images/icons/mobile/mobileMailIcon.svg";
+import mobilePhoneIcon from "../../assets/images/icons/mobile/mobilePhoneIcon.svg";
+import mobileMenuIcon from "../../assets/images/icons/mobile/mobileMenuIcon.svg";
 import copyIcon from "../../assets/images/icons/copyIcon.png";
 import { ROUTES } from "../../constants/routes";
 import { Button } from "../Button";
@@ -13,7 +13,8 @@ import { Menu } from "../../feature/Header/Menu";
 import "./Header.css";
 
 export const Header = ({ backgroundColor, backdropFilter }) => {
-  const [isEmailButtonVisible, toggleEmailButtonVisibility] = useState(false);
+  const [isEmailIconVisible, toggleEmailIconVisibility] = useState(true);
+  const [isMobileEmailIconVisible, toggleMobileEmailIconVisibility] = useState(true);
   const headerRef = useRef();
   const menuRef = useRef();
   const navigate = useNavigate();
@@ -105,39 +106,71 @@ export const Header = ({ backgroundColor, backdropFilter }) => {
               <Button width="150px" fontSize="var(--font-xs)" />
             </Link>
             <div className="header__aside__icon__container">
-              {isEmailButtonVisible ? (
-                <img
-                  src={copyIcon}
-                  alt="copyIcon"
-                  className="header__aside__copy"
-                  onClick={() => copyToClipboard("info@bullet-agro.com")}
-                  onMouseOut={() => toggleEmailButtonVisibility(false)}
-                />
-              ) : (
+              {isEmailIconVisible ? (
                 <img
                   src={mailIcon}
                   alt="mailIcon"
                   className="header__aside__icon"
-                  onMouseOver={() => toggleEmailButtonVisibility(true)}
+                  onMouseOver={() => toggleEmailIconVisibility(false)}
+                />
+              ) : (
+                <img
+                  src={copyIcon}
+                  alt="copyIcon"
+                  className="header__aside__icon"
+                  onClick={() => {
+                    copyToClipboard("info@bullet-agro.com");
+                    toggleEmailIconVisibility(true);
+                  }}
+                  onMouseOut={() => toggleEmailIconVisibility(true)}
                 />
               )}
             </div>
             <div className="header__aside__icon__container">
               <img src={phoneIcon} alt="phoneIcon" className="header__aside__icon" />
             </div>
-
-            <img src={mobileMailIcon} alt="mobileMailIcon" className="header__aside__icon__mobile" />
-            <img src={mobilePhoneIcon} alt="molilePhoneIcon" className="header__aside__icon__mobile" />
-            <img
-              src={mobileMenuIcon}
-              alt="mobileMenuIcon"
-              className="header__aside__icon__mobile"
-              onClick={() => transformMenu("0")}
-            />
+            <div className="header__aside__icon__container__mobile">
+              {isMobileEmailIconVisible ? (
+                <img
+                  src={mobileMailIcon}
+                  alt="mobileMailIcon"
+                  className="header__aside__icon__mobile contact"
+                  onMouseOver={() => toggleMobileEmailIconVisibility(false)}
+                  onClick={() => toggleMobileEmailIconVisibility(false)}
+                />
+              ) : (
+                <img
+                  src={copyIcon}
+                  alt="copyIcon"
+                  className="header__aside__icon__mobile contact"
+                  onClick={() => {
+                    toggleMobileEmailIconVisibility(true);
+                    copyToClipboard("info@bullet-agro.com");
+                  }}
+                  onMouseOut={() => toggleMobileEmailIconVisibility(true)}
+                />
+              )}
+            </div>
+            <div className="header__aside__icon__container__mobile">
+              <img src={mobilePhoneIcon} alt="molilePhoneIcon" className="header__aside__icon__mobile contact" />
+            </div>
+            <div className="header__aside__icon__container__mobile">
+              <img
+                src={mobileMenuIcon}
+                alt="mobileMenuIcon"
+                className="header__aside__icon__mobile"
+                onClick={() => transformMenu("0")}
+              />
+            </div>
           </div>
         </header>
       </div>
-      <Menu menuRef={menuRef} transformMenu={transformMenu} handleClick={handleClick} />
+      <Menu
+        menuRef={menuRef}
+        transformMenu={transformMenu}
+        handleClick={handleClick}
+        copyToClipboard={copyToClipboard}
+      />
     </>
   );
 };

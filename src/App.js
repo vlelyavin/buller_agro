@@ -19,13 +19,6 @@ export const App = () => {
   const location = useLocation();
 
   useEffect(() => {
-    document.title = "Bullet agro";
-    document
-      .querySelector('meta[name="description"]')
-      .setAttribute("content", "Energy and Agriculture, Investment and Shipping Firm");
-  }, []);
-
-  useEffect(() => {
     window.scrollTo(0, 0);
   }, [location]);
 
