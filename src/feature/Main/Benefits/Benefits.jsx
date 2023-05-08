@@ -22,12 +22,12 @@ export const Benefits = () => {
     { id: 8, title: "Quality<br /> goods", image: qualityGoods },
   ];
   const benefitsDescriptions = [
-    "One of the largest companies in Ukraine.",
-    "Work experience - more than 3 years. During this time, the company managed to become a confident competitor inthe wholesale market of petroleum products.",
-    "Product quality control. We cooperate only with trusted suppliers, and therefore we can guarantee the high quality of the offered product. All oil products meet the standards, are stored and transported in accordance with the requirements.",
-    "Established logistics. When ordering from us, you are guaranteed to receive the products within the agreedtime.",
-    "A selection of products of all kinds and in different volumes. We supply both small wholesale and large wholesale",
-    "Affordable prices. We carry out the delivery of products in modern ways, which allows us to offer potential buyers the most attractive prices.",
+    "One of the <strong>largest companies</strong> in Ukraine.",
+    "<strong>Work experience - more than 3 years.</strong> During this time, the company managed to become a confident competitor inthe wholesale market of petroleum products.",
+    "<strong>Product quality control.</strong> We cooperate only with trusted suppliers, and therefore we can guarantee the high quality of the offered product. All oil products meet the standards, are stored and transported in accordance with the requirements.",
+    "<strong>Established logistics.</strong> When ordering from us, you are guaranteed to receive the products within the agreedtime.",
+    "<strong>A selection of products of all kinds and in different volumes.</strong> We supply both small wholesale and large wholesale",
+    "<strong>Affordable prices.</strong> We carry out the delivery of products in modern ways, which allows us to offer potential buyers the most attractive prices.",
   ];
   const keyBenefits = [
     {
@@ -68,7 +68,7 @@ export const Benefits = () => {
       </div>
       <ol className="benefits__description">
         {benefitsDescriptions.map((text, id) => (
-          <li key={id}>{text}</li>
+          <li key={id} dangerouslySetInnerHTML={{ __html: text }}></li>
         ))}
       </ol>
       <div className="benefits__summary">

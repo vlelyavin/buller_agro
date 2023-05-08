@@ -25,7 +25,7 @@ export const CodeOfConduct = () => {
               id: 2,
               title: "Trading",
               description:
-                "We do believe that trading is done by humans and for humans. We are team of highly dedicated, experienced experts in trading with our own professional style and signature. Our vision is that nowadays personality and individual approach matter a lot. ",
+                "We do believe that trading is done by humans and for humans. <strong>We are team of highly dedicated, experienced experts in trading with our own professional style and signature</strong>. Our vision is that nowadays personality and individual approach matter a lot. ",
               image: tradingImage,
               background: "white",
               color: "black",
@@ -34,7 +34,7 @@ export const CodeOfConduct = () => {
               id: 3,
               title: "Modernity and<br /> decisiveness",
               description:
-                "We always “feel the heartbeat” of each situation and see it as it is, make our forecasts and act with confidence. We avoid risks and do not sign any unreliable agreements, at the same time making quick decisions and never missing time to benefit from selling or buying a product demanded on the market.",
+                "<strong>We always “feel the heartbeat” of each situation and see it as it is, make our forecasts and act with confidence</strong>. We avoid risks and do not sign any unreliable agreements, at the same time making quick decisions and <strong>never missing time to benefit from selling or buying a product</strong> demanded on the market.",
               image: decisivenessImage,
               background: "white",
               color: "black",
@@ -43,7 +43,7 @@ export const CodeOfConduct = () => {
               id: 4,
               title: "Deep analysis",
               description:
-                "We analyze information in detail, considering past and current data and foreseeing possible changes on the market. We understand how to seize the moment for a profitable sale or purchase. We not only track the conditions and actions inside foreign markets, but also understand the global picture. This allows us to think more open-minded and to be ahead of other traders.",
+                "<strong>We analyze information in detail, considering past and current data and foreseeing possible changes on the market</strong>. We understand how to seize the moment for a profitable sale or purchase. We not only track the conditions and actions inside foreign markets, but <strong>also understand the global picture</strong>. This allows us to think more open-minded and to be ahead of other traders.",
               image: analysisImage,
               background: "white",
               color: "black",
@@ -55,13 +55,13 @@ export const CodeOfConduct = () => {
           firstColumn={{
             title: "Experience and reliability",
             description:
-              "Our team has a wide-ranging work experience on foreign markets.<br /><br />They are highly qualified and confident in their skills, possessing necessary knowledge of dealing with different products and clients from around the globe. We guarantee the reliability of every agreement.",
+              "<strong>Our team</strong> has a wide-ranging work experience on foreign markets.<br /><br />They are highly qualified and confident in their skills, possessing necessary knowledge of dealing with different products and clients from around the globe. <strong>We guarantee the reliability of every agreement.</strong>",
             image: geographicalExpansionImage,
           }}
           secondColumn={{
             title: "Efficiency for all our clients",
             description:
-              "We value our reputation, therefore we offer the most convenient conditions for every client – buyer, seller or investor.<br /><br />Our priority is a lasting, efficient and comfortable partnership.<br /><br />This can be seen behind the range of services provided by Bullet Agro trading company: we do everything for Your comfort, calm and financial prosperity.",
+              "<strong>We value our reputation,</strong> therefore we offer the most convenient conditions for every client – buyer, seller or investor.<br /><br /><strong>Our priority is a lasting, efficient and comfortable partnership.</strong><br /><br />This can be seen behind the range of services provided by Bullet Agro trading company: we do everything for Your comfort, calm and financial prosperity.",
             image: marketplaceImage,
           }}
         />

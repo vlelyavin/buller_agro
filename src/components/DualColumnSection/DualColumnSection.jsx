@@ -9,6 +9,7 @@ export const DualColumnSection = ({ firstColumn, secondColumn }) => {
           {firstColumn.title && <h3 className="dual__column__section__item__title">{firstColumn.title}</h3>}
           <p
             className="dual__column__section__item__description"
+            style={{ fontSize: firstColumn.fontSize }}
             dangerouslySetInnerHTML={{ __html: firstColumn.description }}
           ></p>
         </div>
@@ -17,6 +18,7 @@ export const DualColumnSection = ({ firstColumn, secondColumn }) => {
           {secondColumn.title && <h3 className="dual__column__section__item__title">{secondColumn.title}</h3>}
           <p
             className="dual__column__section__item__description"
+            style={{ fontSize: secondColumn.fontSize }}
             dangerouslySetInnerHTML={{ __html: secondColumn.description }}
           ></p>
         </div>

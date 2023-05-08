@@ -1,12 +1,12 @@
 .main__banner {
   width: 100vw;
-  height: 100vh;
-  background: url("../../../assets/images/banners/mainBanner.png") no-repeat center center / cover;
+  height: 80vh;
+  background: url("../../../assets/images/banners/mainBanner.jpg") no-repeat center center / cover;
 }
 
 .main__banner__info {
   position: absolute;
-  bottom: 100px;
+  bottom: 80px;
   left: 0;
   color: white;
 }
@@ -18,7 +18,7 @@
 
 .main__banner__info__description {
   font-size: 1.944rem;
-  margin: 30px 0;
+  margin: 25px 0;
 }
 
 .main__banner__info__button {

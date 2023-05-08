@@ -22,8 +22,16 @@ export const Main = () => {
         <ProductList />
         <Title value="Most popular trade directions" margin="70px 0 40px" />
         <DualColumnSection
-          firstColumn={{ image: byLand, description: "Sunflower oil trade from Ukraine to EU countries" }}
-          secondColumn={{ image: byShip, description: "Diesel fuel trade from Turkey to Ukraine" }}
+          firstColumn={{
+            image: byLand,
+            description: "<strong>Sunflower oil trade from Ukraine to EU countries</strong>",
+            fontSize: "1.4rem",
+          }}
+          secondColumn={{
+            image: byShip,
+            description: "<strong>Diesel fuel trade from Turkey to Ukraine</strong>",
+            fontSize: "1.4rem",
+          }}
         />
         <Title value="Why choose us" margin="160px 0 40px" />
         <Benefits />

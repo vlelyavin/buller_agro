@@ -6,13 +6,13 @@
   align-items: center;
   background: white;
   border-radius: 20px;
-  padding: 60px 0;
+  padding: 45px 0;
   margin: 40px 0;
 }
 
 .main__quote__title {
-  font-style: italic;
   font-weight: 700;
+  font-size: 1.7rem;
 }
 
 .main__quote__logo {
@@ -35,6 +35,9 @@
     flex-direction: column;
     gap: 16px;
     padding: 18px 0;
+  }
+  .main__quote__title {
+    font-size: var(--font-m);
   }
   .main__quote__logo {
     display: none;

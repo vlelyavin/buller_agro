@@ -13,7 +13,7 @@ export const About = () => {
   return (
     <>
       <Header />
-      <PageBanner title="How we do" text="process" background={processPageBanner} />
+      <PageBanner title="About" background={processPageBanner} />
       <Container>
         <Title value="Portfolio" margin="40px 0" />
         <ImageWithDescription
